@@ -14,7 +14,7 @@
 - Utilizando tags, definiremos la estructura básica de tu página html.
 
     Tags utilizados:
-    Estructura completa de la página: <html>
+    Estructura completa de la página: \<html>
     Encabezado: <head>
     Cuerpo: <body>
  
@@ -48,7 +48,7 @@
 2. Debido a que ya hemos indicado el tipo de fuentes con las que en nuestro proyecto trabajará. Pasemos a la primer parte de la [Actividad CSS](../Actividad-CSS)
 <hr> 
 
-3. Copia el siguiente código justo después del tag <body>
+3. Copia el siguiente código justo después del tag \<body>
   
         <header class="header" id="header-style">
           <img src="img/icono-menu.svg" alt="" class="icono-menu">
@@ -72,7 +72,7 @@ Notas:
 - Componente div: Definición de otra sección en el documento.
 <hr> 
 
-4.- Copia el siguiente código justo después del tag <header>
+4.- Copia el siguiente código justo después del tag \<header>
 
     <main>
         <section class="menu-comida" id="id-menu-comida">
@@ -95,3 +95,32 @@ Notas:
   - Componente section: Especifica una sección nueva dentro de main.
   - Componente div: "sección" nueva que permitirá asignar un estilo a un conjunto de componentes.
   - Componente img: Permite insertar una imagen.
+<hr>
+
+5.- Copia el siguiente código justo después del tag \<main>
+
+    <footer id="contactactanos">
+      <div class="contenedor footer">
+        <div class="contactos">
+          <h2 class="negocio">Rincón Brujo</h2>
+          <p>Sabor de hogar.</p>
+        </div>
+        <div class="redes-sociales">
+          <a href="./" class="icono-social-media">
+            <i class='bx bxl-facebook'></i>
+          </a>
+          <a href="./" class="icono-social-media">
+            <i class='bx bxl-twitter' ></i>
+          </a>
+          <a href="./" class="icono-social-media">
+            <i class='bx bxl-instagram' ></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    
+Notas:
+  - Componente footer: Especifica el pie de página.
+  - Componente a: Crea un link.
+  - Componente i: enmarca o resalta texto.
+
