@@ -19,7 +19,9 @@
     Cuerpo: <body>
  
  - Agregaremos las fuentes de los íconos de redes sociales que se integrarán a nuestro proyecto (Dentro del tag body.)
-   Nota: Todos los íconos y fuentes en esta seción fueron obtendios de: https://boxicons.com/
+   Notas: 
+   - Todos los íconos y sus fuentes en esta seción fueron obtenidos de: https://boxicons.com/
+   - Los tipos de letras fueron obtenidas de: fonts.google.com
     
     Inserta el siguiente código: 
     
