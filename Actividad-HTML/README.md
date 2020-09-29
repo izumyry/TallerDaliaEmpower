@@ -11,12 +11,13 @@
 <hr>
 1.- Utilizando tags, definiremos la estructura básica de una página html.
 
-    Tags utilizados:
+    <p> Tags utilizados:</p> 
     Estructura completa de la página: <html>
     Encabezado: <head>
     Cuerpo: <body>
     
-    Inserta el siguiente código:
+    Inserta el siguiente código: 
+    
     <!DOCTYPE html>
     <html lang="es">
     <head>
@@ -29,6 +30,8 @@
 
     </body> 
     </html>
+    
+    **Atención en el tag: <link>**
   <hr>
 
     
