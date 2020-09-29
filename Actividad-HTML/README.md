@@ -122,5 +122,5 @@ Notas:
 Notas:
   - Componente footer: Especifica el pie de página.
   - Componente a: Crea un link.
-  - Los componentes i (redes sociales), ya los teníamos previamente. Por lo cual solo deberás copiar y pegar estos elementos dentro del tag \<a>
+  - Los componentes i (redes sociales), ya los teníamos previamente. Por lo cual solo deberás copiar y pegar estos elementos dentro al tag \<a>
 
