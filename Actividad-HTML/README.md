@@ -63,12 +63,13 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
           </div>
         </header>
-        
-  Notas:
-    - <header> Encabezado del cuerpo de nuestra página, con class e id que utilizaremos posteriormente desde css.
-    - <img> Agregamos el ícono de menú al encabezado, con class que utilizaremos posteriormente en JavaScript.
-    - <nav> Definición de menú de navegación.
-    - <div> Definición de otra sección en el documento.
+
+Notas:
+
+- Componente header: Encabezado del cuerpo de nuestra página, con class e id que utilizaremos posteriormente desde css.
+- Componente img: Agregamos el ícono de menú al encabezado, con class que utilizaremos posteriormente en JavaScript.
+- Componente nav: Definición de menú de navegación.
+- Componente div: Definición de otra sección en el documento.
         
         
   
