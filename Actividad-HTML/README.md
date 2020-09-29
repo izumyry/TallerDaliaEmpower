@@ -123,4 +123,15 @@ Notas:
   - Componente footer: Especifica el pie de página.
   - Componente a: Crea un link.
   - Los componentes i (redes sociales), ya los teníamos previamente. Por lo cual solo deberás copiar y pegar estos elementos dentro al tag \<a>
+  
+<hr>
+
+6.- Copia el siguiente código justo después del tag \<footer>
+
+    <script src="js/icono_menu.js"></script>
+    <script src="js/lightbox.js"></script
+    
+Notas:
+  - Componente script: Permite "incrustar" o hacer referencia a un archivo que contendrá código JavaScript.
+
 
