@@ -123,8 +123,7 @@ Notas:
 Notas:
   - Componente footer: Especifica el pie de página.
   - Componente a: Crea un link.
-  - Los componentes i (redes sociales), ya los teníamos previamente. Por lo cual solo deberás copiar y pegar estos elementos dentro al tag \<a>
-  
+  - Los componentes i (redes sociales), ya los teníamos previamente. Por lo cual solo deberás copiar y pegar estos elementos dentro al tag \<a> 
 <hr>
 
 6.- Copia el siguiente código justo después del tag \<footer>
@@ -134,5 +133,9 @@ Notas:
     
 Notas:
   - Componente script: Permite "incrustar" o hacer referencia a un archivo que contendrá código JavaScript.
+<hr>
+
+7.- En el punto anterior agregamos referencias a archivos JavaScript aún no creados. 
+    - Pasemos a la actividad número 1 de la [Actividad JavaScript](../Actividad-JavaScript) 
 
 
