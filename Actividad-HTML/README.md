@@ -46,7 +46,7 @@
 <hr> 
 
 2. Debido a que ya hemos indicado el tipo de fuentes con las que en nuestro proyecto trabajará. 
-   - Pasemos a la primer parte de la [Actividad CSS](../Actividad-CSS)
+   Vamos a la primer parte de la [Actividad CSS](../Actividad-CSS)
 <hr> 
 
 3. Copia el siguiente código justo después del tag \<body>
