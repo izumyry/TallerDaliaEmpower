@@ -30,7 +30,8 @@
           <meta name="taller" content="width=device-width initial-scale=1.0">
           <title>Taller Págian Web - Dalia Empower</title>            
           <link rel="stylesheet" href="css/estilos.css">
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css">      
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"> 
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" >
         </head>
         <body>
           <i class='bx bxl-facebook'></i>
@@ -40,7 +41,8 @@
         </html>
         
  - Prueba en Live Server
-        
 <hr> 
+
+2. Debido a que ya hemos indicado el tipo de fuentes con las que en nuestro proyecto trabajaremos. Pasemos a hacer la primer parte de la [Actividad CSS](../Actividad-CSS)
   
   
