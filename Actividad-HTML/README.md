@@ -14,9 +14,9 @@
 - Utilizando tags, definiremos la estructura básica de tu página html.
 
     Tags utilizados:
-    Estructura completa de la página: \<html>
-    Encabezado: <head>
-    Cuerpo: <body>
+    - Estructura completa de la página: \<html>
+    - Encabezado: \<head>
+    - Cuerpo: \<body>
  
  - Agregaremos las fuentes de los íconos de redes sociales que se integrarán a nuestro proyecto (Dentro del tag body.)
    Notas: 
