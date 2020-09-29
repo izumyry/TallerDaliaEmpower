@@ -9,9 +9,9 @@
 #### Desarrollo:
 
 <hr>
-1.- Utilizando tags, definiremos la estructura básica de una página html.
+1.- Utilizando tags, definiremos la estructura básica de tu página html.
 
-    <p> Tags utilizados:</p> 
+    Tags utilizados:
     Estructura completa de la página: <html>
     Encabezado: <head>
     Cuerpo: <body>
