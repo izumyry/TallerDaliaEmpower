@@ -70,6 +70,7 @@ Notas:
 - Componente img: Agregamos el ícono de menú al encabezado, con class que utilizaremos posteriormente en JavaScript.
 - Componente nav: Definición de menú de navegación.
 - Componente div: Definición de otra sección en el documento.
+<hr> 
 
 4.- Copia el siguiente código justo después del tag <header>
 
