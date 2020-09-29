@@ -29,5 +29,5 @@
     - El primer bloque, define las reglas para todos los componentes html (Uso del selector *)
     - El segundo bloque, define las reglas para el selector body.
     
-- Continúemos editando [Actividad HTML](../Actividad-HTML)     
+- Continúemos con el punto 3 en: [Actividad HTML](../Actividad-HTML)     
     
