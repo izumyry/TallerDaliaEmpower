@@ -70,7 +70,27 @@ Notas:
 - Componente img: Agregamos el ícono de menú al encabezado, con class que utilizaremos posteriormente en JavaScript.
 - Componente nav: Definición de menú de navegación.
 - Componente div: Definición de otra sección en el documento.
-        
-        
-  
-  
+
+4.- Copia el siguiente código justo después del tag <header>
+
+    <main>
+        <section class="menu-comida" id="id-menu-comida">
+          <div class="contenedor">
+            <h2 class="subtitulo">Menú</h2>
+            <div class=contenedor-menu>
+              <img src="img/ensaladas.jpg" alt="" class="imagen-menu">
+              <img src="img/carnes.jpg" alt="" class="imagen-menu">
+              <img src="img/hamburguesas.jpg" alt="" class="imagen-menu">
+              <img src="img/pizzas.jpg" alt="" class="imagen-menu">
+              <img src="img/postres.jpg" alt="" class="imagen-menu">
+              <img src="img/bebidas.jpg" alt="" class="imagen-menu">
+            </div>
+          </div>
+        </section>
+      </main>
+
+Notas:
+  - Componente main: Especifica el principal contenido del documento.
+  - Componente section: Especifica una sección nueva dentro de main.
+  - Componente div: "sección" nueva que permitirá asignar un estilo a un conjunto de componentes.
+  - Componente img: Permite insertar una imagen.
