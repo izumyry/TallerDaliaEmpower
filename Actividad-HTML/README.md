@@ -46,5 +46,30 @@
 <hr> 
 
 2. Debido a que ya hemos indicado el tipo de fuentes con las que en nuestro proyecto trabajará. Pasemos a la primer parte de la [Actividad CSS](../Actividad-CSS)
+<hr> 
+
+3. Copia el siguiente código justo después del tag <body>
+  
+        <header class="header" id="header-style">
+          <img src="img/icono-menu.svg" alt="" class="icono-menu">
+          <nav clss="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicios</a>
+            <a href="#menu">Menú</a>
+            <a href="#contacto">Contacto</a>    
+          </nav>
+          <div class="contenedor textos-cabezera">
+            <h1>Sabores de hogar...</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </header>
+        
+  Notas:
+    - <header> Encabezado del cuerpo de nuestra página, con class e id que utilizaremos posteriormente desde css.
+    - <img> Agregamos el ícono de menú al encabezado, con class que utilizaremos posteriormente en JavaScript.
+    - <nav> Definición de menú de navegación.
+    - <div> Definición de otra sección en el documento.
+        
+        
   
   
