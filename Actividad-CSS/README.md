@@ -88,11 +88,22 @@
           color: #fff;
         }
         
+        .lema{
+          font-size: 60px;
+          margin-bottom: 15px;
+        }
+
+        .mensaje-lema{
+          font-weight: 300;
+          font-size: 25px
+        }
+        
     Notas:
       - height: Establece la altura de un elemento. En este caso lo define en % del contenedor.
       - display: Define un contenedor flexible.
       - justify-content & align-items: Justificación vertical y horizontal al centro.
       - flex-direction: Ubica los componentes en una dirección especificada. (Columna)
+      - .lema & .mensaje-lema: Configuran los estilos para los mensajes en el encabezado.
 <hr>
 
 5. Configurando <b>scroll behavior</b>.
@@ -105,3 +116,44 @@
          
   Notas:
     - La pseudo-class root, nos permite asignar una propiedad a todo lo que está dentro del tag \<html>.
+    
+6. Configurando <b>icono-menu & menu-navegacion</b>
+
+  - Agrega el siguiente código justo después de el bloque <b>:root</b>:
+  
+        .icono-menu{
+          position: fixed;
+          top: 30px;
+          right: 30px;
+          background: #fff;
+          width: 40px;
+          height: 40px;
+          cursor: pointer;
+          border-radius: 10px;
+          box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .menu-navegacion{    
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 13vw;
+            height: 100%;
+            background-image: linear-gradient(45deg, rgba(255, 154, 157, 0.705) 0%, rgba(250, 208, 196, 0.712) 99%, #fad0c4 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+            transform: translate(100%);
+        }
+
+        .menu-navegacion a{
+            color: #fffaff;
+            text-decoration: none;
+        }
+        
+    Notas:
+      - El selector icono-menu: Configura el estilo para el ícono de menú.
+      - El selector menu-navegacion: Congiura el estilo del menú de navegación en la página.
+      - El selector menu-navegacion a: Congigura el estilo de los elementos de tipo <b>a</b> dentro del menú de navegación.
