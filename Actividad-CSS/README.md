@@ -34,7 +34,7 @@
 
 2. Configuración de estilo para los componentes con class: <b>contenedor</b>:
 
-  - Agrega el siguiente código justo después de el bloque body.
+  - Agrega el siguiente código justo después del bloque body.
   
         .contenedor{
           width: 90%;
@@ -55,7 +55,7 @@
 
 3. Configuración de estilo para los componentes con class: <b>header</b>
   
-  - Agrega el siguiente código justo después de el bloque contenedor.
+  - Agrega el siguiente código justo después del bloque contenedor.
   
         .header{
           height: 100vh;
@@ -76,7 +76,7 @@
 
 4. Configuración de estilo para los componentes con class: <b>textos-cabezera</b>:
 
-  - Agrega el siguiente código justo después de el bloque contenedor.
+  - Agrega el siguiente código justo después del bloque header.
   
         .textos-cabezera{
           padding: 0;
@@ -108,7 +108,7 @@
 
 5. Configurando <b>scroll behavior</b>.
 
-  - Agrega el siguiente código justo después de el bloque con el selector <b>*</b>.
+  - Agrega el siguiente código justo después del bloque con el selector <b>*</b>.
   
          :root{
           scroll-behavior: smooth;
@@ -120,7 +120,7 @@
     
 6. Configurando <b>icono-menu & menu-navegacion</b>
 
-  - Agrega el siguiente código justo después de el bloque <b>:root</b>:
+  - Agrega el siguiente código justo después del bloque <b>mensaje-lema</b>:
   
         .icono-menu{
           position: fixed;
@@ -161,7 +161,7 @@
       
 7. Configurando el menú de comida:
 
-  - Agrega el siguiente código justo después del tag <b><menu-navegacion a></b>
+  - Agrega el siguiente código justo después del bloque <b><menu-navegacion a></b>
   
         .titulo-menu{
           text-align: center;
@@ -195,5 +195,88 @@
       - El selector menu-comida: Configura el color del background de la sección de las imágenes del menú.
       - El selector contenedor-menu: Configura la sección que contiene cada imágen de nuestro menú.
       - El selector imagen-menu: Configura cada imagen en el menú.
+      
+8. Configurando el pie de página:
+
+  - Agrega el siguiente código justo después del bloque: <b>imagen-menu</b>
+  
+        footer{
+          background: #ba92d1;
+          padding-bottom: 0.1px;
+        }
+
+        .contenedor-footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+
+        .lema-footer{
+            width: 40%;
+            color: #fff;
+        }
+
+        .negocio{
+            font-weight: 500;
+            font-size: 40px;
+        }
+
+        .negocio+p{
+            font-weight: 500;
+        }
+
+        .redes-sociales{
+            width:60%;
+            display:flex;
+            justify-content: flex-end;
+        }
+
+        .icono-social-media{
+            display: inline-block;
+            margin-left: 20px;
+            width: 60px;
+            height: 60px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            text-align: center;
+            color: #fff;
+        }
+
+        .icono-social-media:hover{
+            background: #fff;
+            color: #ba92d1;
+        }
+
+        .icono-social-media i{
+            font-size: 30px;
+            line-height: 60px;
+        }
+
+        .line{
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            height: 2px;
+            background: #fff;
+            margin-bottom: 60px;
+        }
+
+    Notas:
+      - El selector footer: Configura toda la sección que pertenece al pie de página.
+      - El selector contenedor-footer: Configura el contenedor que muestra el mensaje e icónos de redes sociales.
+      - El selector lema-footer: Configura el contenedor que posee los mensajes en pie de página.
+      - El selector negocio: Configura el mensaje con el nombre del Restaurante.
+      - El selector negocio+p: Configura el elemento <b>p</b> dentro del contenedor lema-footer.
+      - El selecto redes-sociales: Configura el contenedor donde se encuentran los íconos de las redes sociales.
+      - El selector icono-social-media: Configura el componente <b>a</b> que permitiria asociar el ícono de redes sociales a un enlace.
+      - El selector icono-social-media:hover: Configura la acción a ejecutarse al pasar el mouse sobre los íconos de redes sociales.
+      - El selector icono-social-media i: Configura el componente <b>i</b> que muestra los íconos de redes sociales.
+      - El selector line: Configura la línea agregada justo antes de cerrar el bloque <b>footer</b>.
+    
+    
+    
 
  
