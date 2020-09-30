@@ -44,13 +44,13 @@
           padding: 60px 0;
         }
        
-  Notas:    
-    - Operador punto:  permite hacer referencia a una class específica en los componentes html.
-    - width: Asigna el ancho del componente html.
-    - max-width: Asigna el máximo ancho del componente html y permite flexibilidad con ventanas más pequeñas.
-    - overflow: Permite indicar que pasará con el contenido si es muy grande para estar el área.
-    - margin: Permite control sobre márgenes(espacio entre los elementos); auto - los centrará horizontalmente dentro de su contenedor.
-    - padding: Permite implementar espacios al rededor de un componente dentro de un borde. 60px (top & bottom), 0(left & right)
+    Notas:    
+      - Operador punto:  permite hacer referencia a una class específica en los componentes html.
+      - width: Asigna el ancho del componente html.
+      - max-width: Asigna el máximo ancho del componente html y permite flexibilidad con ventanas más pequeñas.
+      - overflow: Permite indicar que pasará con el contenido si es muy grande para estar el área.
+      - margin: Permite control sobre márgenes(espacio entre los elementos); auto - los centrará horizontalmente dentro de su contenedor.
+      - padding: Permite implementar espacios al rededor de un componente dentro de un borde. 60px (top & bottom), 0(left & right)
 <hr>
 
 3. Configuración de estilo para los componentes con class: <b>header</b>
@@ -66,11 +66,13 @@
           background-position: center;
         }
         
-  Notas:
+
+    Notas:      
     - height: Establece la altura de un elemento. En este caso relativo al view port. (Area visible para el usuario en página web).
     - background-image: Imagen background del contenedor. Los colores fueron seleccionados de la página: https://webgradients.com/
     - background-repeat: No repetición de imagen - cover: cubre todo el contenedor.
     - background-attachment: Define si la imagen se desplazará o no con la página.
+<hr>
 
 4. Configuración de estilo para los componentes con class: <b>textos-cabezera</b>:
 
