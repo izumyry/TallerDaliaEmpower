@@ -44,11 +44,30 @@
           padding: 60px 0;
         }
         
-    Notas:
+     Notas:
       - Operador punto:  permite hacer referencia a una class específica en los componentes html.
       - width: Asigna el ancho del componente html.
       - max-width: Asigna el máximo ancho del componente html y permite flexibilidad con ventanas más pequeñas.
       - overflow: Permite indicar que pasará con el contenido si es muy grande para estar el área.
       - margin: Permite control sobre márgenes(espacio entre los elementos); auto - los centrará horizontalmente dentro de su contenedor.
       - padding: Permite implementar espacios al rededor de un componente dentro de un borde. 60px (top & bottom), 0(left & right)
-    
+      
+3. Configuración de estilo para los componentes con class: <b>textos-cabezera</b>:
+
+  - Agrega el siguiente código justo después de el bloque contenedor.
+  
+        .textos-cabezera{
+          padding: 0;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          color: #fff;
+        }
+        
+    Notas:
+      - height: Establece la altura de un elemento. En este caso lo define en % del contenedor.
+      - display: Define un contenedor flexible.
+      - justify-content & align-items: Justificación vertical y horizontal al centro.
+      - flex-direction: Ubica los componentes en una dirección especificada. (Columna)
