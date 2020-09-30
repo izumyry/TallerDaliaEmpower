@@ -108,7 +108,7 @@
 
 5. Configurando <b>scroll behavior</b>.
 
-  - Agrega el siguiente código justo después de el bloque textos-cabezera.
+  - Agrega el siguiente código justo después de el bloque con el selector <b>*</b.
   
          :root{
           scroll-behavior: smooth;
@@ -158,3 +158,42 @@
       - El selector icono-menu: Configura el estilo para el ícono de menú.
       - El selector menu-navegacion: Congiura el estilo del menú de navegación en la página.
       - El selector menu-navegacion a: Congigura el estilo de los elementos de tipo <b>a</b> dentro del menú de navegación.
+      
+7. Configurando el menú de comida:
+
+  - Agrega el siguiente código justo después del tag <b><menu-navegacion a></b>
+  
+        .titulo-menu{
+          text-align: center;
+          font-weight: 300;
+          color: #9f8ad0;
+          margin-bottom: 40px;
+          font-size: 40px;
+        }
+
+        .menu-comida{
+            background: #f2f2f2;
+        }
+
+        .contenedor-menu{
+            display: flex;
+            justify-content: space-evenly; 
+            flex-wrap: wrap;   
+        }
+
+        .imagen-menu{
+            object-fit: cover;
+            width: 30%;
+            display: block;
+            margin-bottom: 15px;
+            box-shadow: 0 0 6px rgba(0,0,0,.5);
+            cursor: pointer;
+        }
+
+    Notas: 
+      - El selector titulo-menu: Configura el título de la sección que despliega el menú.
+      - El selector menu-comida: Configura el color del background de la sección de las imágenes del menú.
+      - El selector contenedor-menu: Configura la sección que contiene cada imágen de nuestro menú.
+      - El selector imagen-menu: Configura cada imagen en el menú.
+
+ 
