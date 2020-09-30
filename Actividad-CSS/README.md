@@ -41,6 +41,7 @@
           max-width: 1200px;
           overflow: hidden;
           margin: auto;
+          padding: 60px 0;
         }
         
     Notas:
@@ -49,4 +50,5 @@
       - max-width: Asigna el máximo ancho del componente html y permite flexibilidad con ventanas más pequeñas.
       - overflow: Permite indicar que pasará con el contenido si es muy grande para estar el área.
       - margin: Permite control sobre márgenes(espacio entre los elementos); auto - los centrará horizontalmente dentro de su contenedor.
+      - padding: Permite implementar espacios al rededor de un componente dentro de un borde. 60px (top & bottom), 0(left & right)
     
