@@ -29,5 +29,24 @@
     - El primer bloque, define las reglas para todos los componentes html (Uso del selector *)
     - El segundo bloque, define las reglas para el selector body.
     
-- Continúemos con el punto 3 en: [Actividad HTML](../Actividad-HTML)     
+- Continúemos con el punto 3 en: [Actividad HTML](../Actividad-HTML)  
+<hr>
+
+2. Configuración de estilo para los componentes con class: <b>contenedor</b>:
+
+  - Agrega el siguiente código justo después de el bloque body.
+  
+        .contenedor{
+          width: 90%;
+          max-width: 1200px;
+          overflow: hidden;
+          margin: auto;
+        }
+        
+    Notas:
+      - Operador punto:  permite hacer referencia a una class específica en los componentes html.
+      - width: Asigna el ancho del componente html.
+      - max-width: Asigna el máximo ancho del componente html y permite flexibilidad con ventanas más pequeñas.
+      - overflow: Permite indicar que pasará con el contenido si es muy grande para estar el área.
+      - margin: Permite control sobre márgenes(espacio entre los elementos); auto - los centrará horizontalmente dentro de su contenedor.
     
