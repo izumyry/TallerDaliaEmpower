@@ -135,6 +135,7 @@ Notas:
 <hr>
 
 7.- En el punto anterior agregamos referencias a archivos JavaScript aún no creados. 
+    
     - Pasemos a la actividad número 1 de la [Actividad JavaScript](../Actividad-JavaScript) 
 
 
