@@ -97,9 +97,9 @@ Notas:
 
 5.- Copia el siguiente código justo después del tag \<main>
 
-    <footer id="contactactanos">
-      <div class="contenedor footer">
-        <div class="contactos">
+    <footer id="contacto">
+      <div class="contenedor contenedor-footer">
+        <div class="lema-footer">
           <h2 class="negocio">Rincón Brujo</h2>
           <p>Sabor de hogar.</p>
         </div>
@@ -114,7 +114,8 @@ Notas:
             <i class='bx bxl-instagram' ></i>
           </a>
         </div>
-      </div>
+       </div>
+      <div class="line"></div>
     </footer>
     
 Notas:
