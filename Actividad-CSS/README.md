@@ -116,6 +116,7 @@
          
   Notas:
     - La pseudo-class root, nos permite asignar una propiedad a todo lo que está dentro del tag \<html>.
+<hr>    
     
 6. Configurando <b>icono-menu & menu-navegacion</b>
 
