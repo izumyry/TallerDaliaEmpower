@@ -51,8 +51,27 @@
       - overflow: Permite indicar que pasará con el contenido si es muy grande para estar el área.
       - margin: Permite control sobre márgenes(espacio entre los elementos); auto - los centrará horizontalmente dentro de su contenedor.
       - padding: Permite implementar espacios al rededor de un componente dentro de un borde. 60px (top & bottom), 0(left & right)
-      
-3. Configuración de estilo para los componentes con class: <b>textos-cabezera</b>:
+<hr>
+3. Configuración de estilo para los componentes con class: <b>header</b>
+  
+  - Agrega el siguiente código justo después de el bloque contenedor.
+  
+        .header{
+          height: 100vh;
+          background-image: linear-gradient(to top, rgba(235, 192, 253, 0.5) 0%, rgba(217, 222, 216, 0.507) 100%), url(../img/cocina.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+        }
+        
+  Notas:
+    - height: Establece la altura de un elemento. En este caso relativo al view port. (Area visible para el usuario en página web).
+    - background-image: Imagen background del contenedor. Los colores fueron seleccionados de la página: https://webgradients.com/
+    - background-repeat: No repetición de imagen - cover: cubre todo el contenedor.
+    - background-attachment: Define si la imagen se desplazará o no con la página.
+
+4. Configuración de estilo para los componentes con class: <b>textos-cabezera</b>:
 
   - Agrega el siguiente código justo después de el bloque contenedor.
   
