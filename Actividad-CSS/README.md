@@ -108,7 +108,7 @@
 
 5. Configurando <b>scroll behavior</b>.
 
-  - Agrega el siguiente código justo después de el bloque con el selector <b>*</b.
+  - Agrega el siguiente código justo después de el bloque con el selector <b>*</b>.
   
          :root{
           scroll-behavior: smooth;
