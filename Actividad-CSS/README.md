@@ -93,3 +93,15 @@
       - display: Define un contenedor flexible.
       - justify-content & align-items: Justificación vertical y horizontal al centro.
       - flex-direction: Ubica los componentes en una dirección especificada. (Columna)
+<hr>
+
+5. Configurando <b>scroll behavior</b>.
+
+  - Agrega el siguiente código justo después de el bloque textos-cabezera.
+  
+         :root{
+          scroll-behavior: smooth;
+         }
+         
+  Notas:
+    - La pseudo-class root, nos permite asignar una propiedad a todo lo que está dentro del tag \<html>.
