@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+:root{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -47,10 +49,6 @@ body{
     font-size: 25px
 }
 
-:root{
-    scroll-behavior: smooth;
-}
-
 .icono-menu{
     position: fixed;
     top: 30px;
@@ -81,4 +79,30 @@ body{
 .menu-navegacion a{
     color: #fffaff;
     text-decoration: none;
+}
+
+.titulo-menu{
+    text-align: center;
+    font-weight: 300;
+    color: #9f8ad0;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.menu-comida{
+    background: #f2f2f2;
+}
+
+.contenedor-menu{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;   
+}
+
+.imagen-menu{
+    object-fit: cover;
+    width: 30%;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    cursor: pointer;
 }
