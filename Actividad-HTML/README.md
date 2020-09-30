@@ -51,7 +51,7 @@
 
 3. Copia el siguiente código justo después del tag \<body>
   
-        <header class="header" id="id-header">
+        <header class="header" id="inicio">
           <img src="img/icono-menu.svg" alt="" class="icono-menu">
           <nav class="menu-navegacion">
             <a href="#inicio">Inicio</a>
