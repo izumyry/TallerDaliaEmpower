@@ -35,4 +35,3 @@
 5.- [Actividad CSS](./Actividad-CSS)
 
 6.- [Actividad JavaScript](./Actividad-JavaScript)
-[[
