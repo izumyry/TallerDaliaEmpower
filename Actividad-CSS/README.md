@@ -164,7 +164,7 @@
       - El selector icono-menu: Configura el estilo para el ícono de menú.
       - El selector menu-navegacion: Congiura el estilo del menú de navegación en la página.
       - El selector desaparece: Permitirá aparecer y desaparecer el menú navegacional. ( Se configurará con JavaScript )
-      - El selector menu-navegacion a: Congigura el estilo de los elementos de tipo <b>a</b> dentro del menú de navegación.
+      - El selector menu-navegacion a: Configura el estilo de los elementos de tipo <b>a</b> dentro del menú de navegación.
       
 7. Configurando el menú de comida:
 
@@ -231,8 +231,17 @@
             font-size: 40px;
         }
 
-        .negocio+p{
-            font-weight: 500;
+        .whatsapp{
+          font-weight: 900;
+          color: #fff;
+        }
+
+        .icono-whatsapp{
+            font-size: 30px;
+            line-height: 60px;
+            width: 30px;
+            height: 60px;
+            margin-left: 3px;
         }
 
         .redes-sociales{
@@ -277,6 +286,8 @@
       - El selector lema-footer: Configura el contenedor que posee los mensajes en pie de página.
       - El selector negocio: Configura el mensaje con el nombre del Restaurante.
       - El selector negocio+p: Configura el elemento <b>p</b> dentro del contenedor lema-footer.
+      - El selector whatsapp: Configura la sección que contiene la información de contacto de whatsapp.
+      - El selector icono-whatsapp: Configura el componente <b>i</b> que muestra los íconos de whatsapp.
       - El selecto redes-sociales: Configura el contenedor donde se encuentran los íconos de las redes sociales.
       - El selector icono-social-media: Configura el componente <b>a</b> que permitiria asociar el ícono de redes sociales a un enlace.
       - El selector icono-social-media:hover: Configura la acción a ejecutarse al pasar el mouse sobre los íconos de redes sociales.
