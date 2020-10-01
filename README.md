@@ -1,6 +1,6 @@
 # TallerDaliaEmpower
 
-## Objetivos: Comprender los componentes de una página web llevada a cabo con HTML, CSS & Java Script
+## Objetivos: Comprender los componentes de una página web creada con: HTML, CSS & Java Script
 
 ### Requisitos: 
     - Intalado Visual Studio Code y extensiones necesarias para crear una página web.
