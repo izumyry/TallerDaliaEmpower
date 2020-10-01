@@ -23,7 +23,7 @@
    - Todos los íconos y sus fuentes en esta sección fueron obtenidos de: https://boxicons.com/
    - Los tipos de letras fueron obtenidas de: fonts.google.com
     
-    Inserta el siguiente código: 
+    En el archivo index.html, inserta el siguiente código: 
     
         <!DOCTYPE html>
         <html lang="es">
