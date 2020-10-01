@@ -74,19 +74,21 @@ Notas:
 
 4.- Copia el siguiente código justo después del tag \<header>
 
-     <section class="menu-comida" id="menu">
-      <div class="contenedor estructura-menu">
-        <h2 class="titulo-menu">Menú</h2>
-        <div class="contenedor-menu">
-          <img src="img/ensaladas.jpg" alt="" class="imagen-menu">
-          <img src="img/carnes.jpg" alt="" class="imagen-menu">
-          <img src="img/hamburguesas.jpg" alt="" class="imagen-menu">
-          <img src="img/pizzas.jpg" alt="" class="imagen-menu">
-          <img src="img/postres.jpg" alt="" class="imagen-menu">
-          <img src="img/bebidas.jpg" alt="" class="imagen-menu">
+     <main>
+      <section class="menu-comida" id="menu">
+        <div class="contenedor estructura-menu">
+          <h2 class="titulo-menu">Menú</h2>
+          <div class="contenedor-menu">
+            <img src="img/ensaladas.jpg" alt="" class="imagen-menu">
+            <img src="img/carnes.jpg" alt="" class="imagen-menu">
+            <img src="img/hamburguesas.jpg" alt="" class="imagen-menu">
+            <img src="img/pizzas.jpg" alt="" class="imagen-menu">
+            <img src="img/postres.jpg" alt="" class="imagen-menu">
+            <img src="img/bebidas.jpg" alt="" class="imagen-menu">
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+     </main>
     
 Notas:
   - Componente main: Especifica el principal contenido del documento.
