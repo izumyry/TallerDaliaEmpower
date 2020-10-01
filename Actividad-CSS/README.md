@@ -169,7 +169,7 @@
       
 7. Configurando el menú de comida:
 
-  - Agrega el siguiente código justo después del bloque <b><menu-navegacion a></b>
+  - Agrega el siguiente código justo después del bloque <b>menu-navegacion a</b>
   
         .titulo-menu{
           text-align: center;
