@@ -14,7 +14,7 @@
 
 2. Generación de carpetas:
   
-    - Desde tu editor de código, crea una carpeta que contendrá tu proyecto, dentro de ellas genera las carpatas: css, img, js
+    - Desde tu editor de código, dentro de la carpeta generada en el paso anterior, genera las carpatas: css, img, js
     
       Nota: 
       * En la carpeta img contendrás las imágenes e íconos que utilizarás en tú proyecto.
