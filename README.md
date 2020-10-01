@@ -8,11 +8,19 @@
     
 #### Desarrollo:
 
-1. Generación de carpeta de mi proyecto:
+1. Instalación de Visual Studio Code. Links de apoyo:
+
+   - [Visual Studio Code](https://code.visualstudio.com/)
+   - Configuración o Setup de Visual Studio Code para desarrollo web:
+      - [Opción 1](http://jesuscanales.com/configurando-visual-studio-code-para-desarrollo-web/)
+      - [Opción 2](https://code.visualstudio.com/docs/languages/css)
+      - [Opción 3](https://medium.com/quick-code/vs-code-setup-for-front-end-development-b22214a3c39a)
+
+2. Generación de carpeta de mi proyecto:
 
       - Desde tu Sistema Operativo crea una carpeta para guardar el proyecto.
 
-2. Generación de carpetas:
+3. Generación de carpetas:
   
     - Desde tu editor de código, dentro de la carpeta generada en el paso anterior, genera las carpatas: css, img, js
     
@@ -22,8 +30,9 @@
       
     - Crea un archivo llamado: index.html
     
-2.- [Actividad HTML](./Actividad-HTML)
+4.- [Actividad HTML](./Actividad-HTML)
 
-3.- [Actividad CSS](./Actividad-CSS)
+5.- [Actividad CSS](./Actividad-CSS)
 
-4.- [Actividad JavaScript](./Actividad-JavaScript)
+6.- [Actividad JavaScript](./Actividad-JavaScript)
+[[
