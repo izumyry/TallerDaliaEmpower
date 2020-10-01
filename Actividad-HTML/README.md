@@ -99,31 +99,31 @@ Notas:
 
 5.- Copia el siguiente código justo después del tag \<main>
 
-    <footer id="contacto">
-        <div class="contenedor contenedor-footer">
-          <div class="lema-footer">
-            <h2 class="negocio">Rincón Brujo</h2>
-            <div class="whatsapp">
-              <p>Pedidos:
-                <i class='bx bxl-whatsapp icono-whatsapp'></i>
-                539-18-11
-              </p>          
-            </div>        
-          </div>
-          <div class="redes-sociales">
-            <a href="./" class="icono-social-media">
-              <i class='bx bxl-facebook'></i>
-            </a>
-            <a href="./" class="icono-social-media">
-              <i class='bx bxl-twitter' ></i>
-            </a>
-            <a href="./" class="icono-social-media">
-              <i class='bx bxl-instagram' ></i>
-            </a>
-          </div>
+     <footer id="contacto">
+      <div class="contenedor contenedor-footer">
+        <div class="lema-footer">
+          <h2 class="negocio">Rincón Brujo</h2>
+          <div class="whatsapp">
+            <p>Pedidos:
+              <i class='bx bxl-whatsapp icono-whatsapp'></i>
+              5579-18-11
+            </p>          
+          </div>        
         </div>
-        <div class="line"></div>
-      </footer>
+        <div class="redes-sociales">
+          <a href="./" class="icono-social-media">
+            <i class='bx bxl-facebook'></i>
+          </a>
+          <a href="./" class="icono-social-media">
+            <i class='bx bxl-twitter' ></i>
+          </a>
+          <a href="./" class="icono-social-media">
+            <i class='bx bxl-instagram' ></i>
+          </a>
+        </div>
+      </div>
+      <div class="line"></div>
+    </footer> 
      
 Notas:
   - Componente footer: Especifica el pie de página.
