@@ -20,7 +20,7 @@
  
  - Agregaremos las fuentes de los íconos de redes sociales que se integrarán a nuestro proyecto (Dentro del tag body.)
    Notas: 
-   - Todos los íconos y sus fuentes en esta seción fueron obtenidos de: https://boxicons.com/
+   - Todos los íconos y sus fuentes en esta sección fueron obtenidos de: https://boxicons.com/
    - Los tipos de letras fueron obtenidas de: fonts.google.com
     
     Inserta el siguiente código: 
