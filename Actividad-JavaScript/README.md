@@ -13,7 +13,6 @@
 
 - Dentro de la carpeta js, crea los siguientes archivos:
   - ícono_menu.js
-  - lightbox.js
 <hr>
 
 2. Abre el archivo <b>icono_menu.js</b>
