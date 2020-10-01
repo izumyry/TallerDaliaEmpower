@@ -8,9 +8,13 @@
     
 #### Desarrollo:
 
-1.- Generación de carpetas:
+1. Generación de carpeta de mi proyecto:
+
+      - Desde tu Sistema Operativo crea una carpeta para guardar el proyecto.
+
+2. Generación de carpetas:
   
-    - Crea una carpeta que contendrá tu proyecto, dentro de ellas genera las carpatas: css, img, js
+    - Desde tu editor de código, crea una carpeta que contendrá tu proyecto, dentro de ellas genera las carpatas: css, img, js
     
       Nota: 
       * En la carpeta img contendrás las imágenes e íconos que utilizarás en tú proyecto.
