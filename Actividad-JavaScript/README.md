@@ -11,7 +11,7 @@
 <hr>
 1. 
 
-- Dentro de la carpeta js, crea los siguientes archivos:
+- Dentro de la carpeta js, crea el siguiente archivo:
   - icono_menu.js
 - Continua con la secuencia de actividades. [Taller Dalia Empower](../../../)
 <hr>
