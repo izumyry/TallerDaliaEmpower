@@ -124,6 +124,7 @@
   
         .icono-menu{
           position: fixed;
+          /*z-index:10; /*solo para demo desaparece*/
           top: 30px;
           right: 30px;
           background: #fff;
@@ -147,7 +148,12 @@
             align-items: center;
             box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
             transform: translate(100%);
+            transition: transform .3s ease-in-out;
         }
+        
+        .desaparece{
+          transform: translate(0%);
+         }
 
         .menu-navegacion a{
             color: #fffaff;
@@ -157,6 +163,7 @@
     Notas:
       - El selector icono-menu: Configura el estilo para el ícono de menú.
       - El selector menu-navegacion: Congiura el estilo del menú de navegación en la página.
+      - El selector desaparece: Permitirá aparecer y desaparecer el menú navegacional. ( Se configurará con JavaScript )
       - El selector menu-navegacion a: Congigura el estilo de los elementos de tipo <b>a</b> dentro del menú de navegación.
       
 7. Configurando el menú de comida:
