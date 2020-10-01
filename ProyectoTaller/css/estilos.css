@@ -140,8 +140,17 @@ footer{
     font-size: 40px;
 }
 
-.negocio+p{
-    font-weight: 500;
+.whatsapp{
+    font-weight: 900;
+    color: #fff;
+}
+
+.icono-whatsapp{
+    font-size: 30px;
+    line-height: 60px;
+    width: 30px;
+    height: 60px;
+    margin-left: 3px;
 }
 
 .redes-sociales{
