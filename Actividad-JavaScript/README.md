@@ -41,4 +41,6 @@
       - iconoMenu: Constate que permite hacer referencia al elemento que hace match con el selector. <b>.icono-menu</b>
       - menuNavegacion: Constante que permite hacer referencia al elemento que hace match con el selector. <b>.menu-navegacion</b>
       - addEventListener: Función que nos permite agregarle un efecto o evento a algún componente.
+        - Primer eventListener: Al recibir un click el ícono de menú, se le agrega la clase desaparece a <b>\<nav></b>
+        - Segundo eventListener: Si <nav> tiene la clase desparece y se está dando click en algún lugar distinto a menuNavegacion y a algún lugar distinto al íconoMenu. Entonces se asigna o elimina la clase desaparece.
  
