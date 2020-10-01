@@ -1,7 +1,7 @@
 # Programando archivos JavaScript.
 
 ## Objetivos: 
-  - Definición de funciones JavaScript que se ejcutarán desde HTML
+  - Definición de funciones JavaScript que se ejecutarán desde HTML
   
 ### Requisitos:
   - Creado el archivo <b>index.html</b>.
