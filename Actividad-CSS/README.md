@@ -116,6 +116,7 @@
          
     Notas:
       - La pseudo-class root, nos permite asignar una propiedad a todo lo que está dentro del tag \<html>.
+      - scroll-behavior: Nos permite definir el tipo de scroll que se aplicará en nuestra página.
 <hr>    
     
 6. Configurando <b>icono-menu & menu-navegacion</b>
