@@ -12,7 +12,8 @@
 1. 
 
 - Dentro de la carpeta js, crea los siguientes archivos:
-  - ícono_menu.js
+  - icono_menu.js
+- Continua con la secuencia de actividades. [Taller Dalia Empower](../TallerDaliaEmpower)
 <hr>
 
 2. Abre el archivo <b>icono_menu.js</b>
